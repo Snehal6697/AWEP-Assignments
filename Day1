@@ -1,0 +1,218 @@
+1.html
+
+<html>
+<head>
+    <title>First Page</title>
+    <style>
+        
+        h1,h3,p {
+            color: green;
+        }
+
+        
+        #id1 {
+            color: red;
+        }
+
+        
+        .myclass {
+            color: pink;
+        }
+    </style>
+</head>
+
+<body style="background: yellow; color: blue;">
+    <h1 class="myclass">Hello World</h1>
+    <h1 class="myclass">Hello Worldddd</h1>
+    <h1 class="myclass">Hello Worldddd Againnnn</h1>
+    <h3>Hello Universe</h3>
+    <h6>Hello India</h6>
+
+    
+    <p id="1" name="mumbai" style="" class="">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolor nemo nulla alias recusandae dolorem ut
+        officiis
+        nesciunt voluptatum et fugiat, placeat pariatur doloremque perspiciatis animi non, natus ex libero?
+    </p>
+
+    <ul id="2" name="mylist" style="" class="">
+        <li>1</li>
+        <li>2</li>
+    </ul>
+		</body>
+</html> 
+
+2.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        html,
+        body,
+        h1 {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="myclass beafutify"
+        style="background: yellow; height: 100vh; display: flex; justify-content: center; align-items: center;">
+        <h1>Lorem ipsu</h1>
+    </div>
+</body>
+
+</html> 
+
+3.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        html,
+        body {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div style="
+          background: red;
+          height: 50vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          font-size: 32px;
+        ">
+            Lorem ipsum dolor sit amet.
+        </div>
+        <div style="
+          background: yellow;
+          height: 50vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: black;
+          font-size: 32px;
+        ">
+            Lorem ipsum dolor sit.
+        </div>
+    </div>
+</body>
+
+</html> 
+
+4.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        html,
+        body {
+            margin: 0;
+        }
+
+        .myclass {
+            background: linear-gradient(orange, whitesmoke, lightgreen);
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="myclass"></div>
+</body>
+
+</html> 
+
+
+5.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div style="
+          background: red;
+          height: 50vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          font-size: 32px;
+        ">
+            <img src="https://picsum.photos/500/400" alt="" />
+        </div>
+
+        <div style="
+          background: yellow;
+          height: 50vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: black;
+          font-size: 32px;
+        ">
+            <img src="https://picsum.photos/601/400" alt="" />
+        </div>
+
+        <div style="
+          background: yellow;
+          height: 50vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: black;
+          font-size: 32px;
+        ">
+            <img src="https://picsum.photos/602/400" alt="" />
+        </div>
+
+        <div style="
+          background: yellow;
+          height: 50vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: black;
+          font-size: 32px;
+        ">
+            <img src="https://picsum.photos/203/400" alt="" />
+        </div>
+    </div>
+</body>
+
+</html>
