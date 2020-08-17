@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        .container
+        {
+            height: 544px;
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+            background-color:lightslategray;
+
+            /*flex properties*/
+            flex-direction: row;
+            flex-wrap: wrap;
+             justify-content: center ;/*spcae-evenly,space-between, space-around*/
+             align-items: center; /*flex-start,flex-end,stretch */
+        }
+        .item
+        {
+            width: 200px;
+            height: 200px;
+            background-color:teal ;
+            border: 2pxsolid black;
+             padding: 3px;
+             margin: 10px;
+            }
+
+            #item-1{
+
+                /*order: 2;Higher the order it will displayed at end 
+                flex-grow: 2;
+                align-self: center;
+                }
+
+                #item-2{
+                    align-self: start;
+                }
+                #item-3{
+                    align-self: end;*/
+                }
+    </style>
+</head>
+<body>
+    <h1>This is FlexBox</h1>
+    <div class="container">
+        <!--div.items#item-$*6-->
+        <div class="item" id="item-1">First Box</div>
+        <div class="item" id="item-2">Second Box</div>
+        <div class="item" id="item-3">Third Box</div>
+        <!-----<div class="item" id="item-4">Fourth Box</div>
+        <div class="item" id="item-5">Fifth Box</div>
+        <div class="item" id="item-6">Sixth Box</div>--->
+
+
+
+
+    </div>
+</body>
+</html>
