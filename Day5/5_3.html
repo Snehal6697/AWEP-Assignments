@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html id="hid" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+
+    <!-- Style Integration -->
+    <style>
+      .myclass {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .beautify {
+        background:grey;
+        color: black;
+        padding: 8px;
+        font-size: 64px;
+        border-radius: 8px;
+      }
+    </style>
+
+    <!-- External JavaScript -->
+    <script src="5_3.js"></script>
+  </head>
+  <body>
+    <div class="myclass">
+      <!-- Now this element listens mouse over event -->
+      <div
+        class="beautify"
+        onmouseover="handleMouseOver()"
+        onmouseout="handleMouseOut()"
+      >
+        Sakhi....!!!!!
+      </div>
+    </div>
+  </body>
+</html>
